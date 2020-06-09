@@ -1,0 +1,16 @@
+{
+  "name": "vuepress-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "大笑",
+  "license": "MIT",
+  "devDependencies": {
+    "less": "^3.11.3",
+    "node-less": "^1.0.0"
+  }
+}
