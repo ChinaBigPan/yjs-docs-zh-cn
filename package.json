@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "author": "大笑 <daguogxp@qq.com>",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy"
   },
-  "author": "大笑",
   "license": "MIT",
   "devDependencies": {
     "less": "^3.11.3",
