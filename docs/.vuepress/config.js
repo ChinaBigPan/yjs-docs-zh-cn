@@ -13,7 +13,7 @@ module.exports= {
         nav: [
             {
                 text: "主站",
-                link: "https://frontendBecon.com"
+                link: "https://febeacon.com"
             },
             {
                 text: "文档首页",
