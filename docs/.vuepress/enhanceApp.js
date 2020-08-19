@@ -1,4 +1,4 @@
-import sc from './utils/console';
+import sc from './utils/console/sc';
 
 export default ({
     Vue, // VuePress 正在使用的 Vue 构造函数

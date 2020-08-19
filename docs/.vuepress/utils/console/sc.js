@@ -4,8 +4,9 @@
  * @content [params ] content 控制台显示的参数
  * @param [string ] hint 提示信息
  * @param [color] color 颜色值
+ * @param 是否是fe文档 fe | other
  */
-export default function sncConsole(content, hint, color = "primary") {
+export default function sncConsole(content, hint, color = "primary", env = 'fe') {
     const defaultColor = {
         primary: "#1890ff",
         success: "#52c41a",
@@ -33,8 +34,8 @@ export default function sncConsole(content, hint, color = "primary") {
     if (!isDefaultColor) {
         defaultColor[color] = color;
     }
-    const envColor = env === "app" ? "#D2691E" : env === "wap" ? "#00CED1" : "#000000";
-    const envTag = `%c${env || "非SNC"}`;
+    const envColor = env === "other" ? "#D2691E" : env === "fe" ? "#00CED1" : "#000000";
+    const envTag = `%c${env}`;
     const envStyle = `
         vertical-align: middle;
         display: flex;
