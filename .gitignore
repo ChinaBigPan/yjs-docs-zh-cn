@@ -37,6 +37,10 @@ node_modules/
 jspm_packages/
 
 deploy.sh
+.travis.yml
+.git 
+.DS_Store
+.vuepress/dist
  
 # Typescript v1 declaration files
 typings/

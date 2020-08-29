@@ -1,6 +1,7 @@
 module.exports= {
     title: '起手模板',
     description: "别忘了改改它",
+    base: '/dont-forget-this/',
     markdown: {
         lineNumbers: true,
         anchor: {
@@ -11,10 +12,10 @@ module.exports= {
         activeHeaderLinks: true,
         displayAllHeaders: true,
         nav: [
-            {
-                text: "主站",
-                link: "https://febeacon.com"
-            },
+            // {
+            //     text: "主站",
+            //     link: "https://febeacon.com"
+            // },
             {
                 text: "文档首页",
                 link: "/"
