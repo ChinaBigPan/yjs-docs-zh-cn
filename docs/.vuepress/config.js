@@ -1,7 +1,7 @@
 module.exports= {
-    title: '起手模板',
-    description: "别忘了改改它",
-    base: '/dont-forget-this/',
+    title: 'Y.js 中文文档',
+    description: "对共享数据进行强大抽象的 CRDT 框架。",
+    base: '/yjs-docs-zh-cn/',
     markdown: {
         lineNumbers: true,
         anchor: {
@@ -14,7 +14,7 @@ module.exports= {
         nav: [
             // {
             //     text: "主站",
-            //     link: "https://febeacon.com"
+            //     link: "http://febeacon.com"
             // },
             {
                 text: "文档首页",
@@ -41,7 +41,7 @@ module.exports= {
     },
     head: [
         ["link", {
-            rel: "icon", href: "/images/favicon.ico"
+            rel: "icon", href: "/images/yjs_favicon.png"
         }]
     ]
 }

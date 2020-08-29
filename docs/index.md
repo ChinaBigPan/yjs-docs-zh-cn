@@ -1,25 +1,25 @@
 ---
 home: true
-heroImage: /images/hero.png
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
+heroImage: /images/logo.png
+heroText: Y.js 中文文档
+tagline: 对共享数据进行强大抽象的 CRDT 框架
+actionText: v 13.3.2 →
 actionLink: /routes/
 meta:
   - name: description
-    content: 模板
+    content: Yjs 对共享数据进行强大抽象的 CRDT 框架。它是一种 CRDT 实现，它将其内部数据暴露为共享类型(shared types)。共享类型是一种常见的数据类型，如`Map`或`Array`，它们都具有很强的能力，对其变更会自动分配给其他对等的节点进行合并，而不会发生冲突.
   - name: keywords
     content: 关键词, 关键词
   - name: feversion
-    content: 版本号
+    content: v 13.3.2
   - name: fetags
-    content: "[{'kind': 'node'}, {'kind':'js', 'text': 'js'}]"
+    content: "[{'kind': 'iconfolder-docs', 'text': '共享文档'}, {'kind':'iconNodejs', 'text': 'Node.js'}]"
 features:
-  - title: 简洁至上
-    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-  - title: Vue驱动
-    details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-  - title: 高性能
-    details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Translated By 大笑
+  - title: CRDT 
+    details: CRDT 是 Conflict-free Replicated Data Type 即免冲突的可复制的数据类型，这种数据类型可以用于数据跨网络复制并且可以自动解决冲突达到一致。
+  - title: 共享类型
+    details: Yjs 是一种 CRDT 实现，它将其内部数据暴露为共享类型(shared types)。共享类型是一种常见的数据类型，如`Map`或`Array`，它们都具有很强的能力，对其变更会自动分配给其他对等的节点进行合并，而不会发生冲突。
+  - title: 可脱机
+    details: Yjs 不依赖网络，支持许多现有的富文本编辑器、离线编辑、版本快照、撤消/重做和共享鼠标。它可以很好地扩展无限数量的用户，甚至非常适合大型文档。
+footer: MIT Licensed | Developed By dmonad Kevin Jahns | Translated By 大笑
 ---
