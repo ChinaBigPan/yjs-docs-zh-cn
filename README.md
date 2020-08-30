@@ -2,7 +2,7 @@
 
 Y.js 是对共享数据进行强大抽象的 CRDT 框架。
 
-![image](http://note.youdao.com/yws/res/18823/WEBRESOURCE25abdd4c460c05fd84fcf0064854bccf)
+![image](https://camo.githubusercontent.com/be84e48f05cb9efd594ab88cdbd120edf8789093/68747470733a2f2f796a732e6465762f696d616765732f6c6f676f2f796a732d313230783132302e706e67)
 
 [文档地址](https://chinabigpan.github.io/yjs-docs-zh-cn/)
 
