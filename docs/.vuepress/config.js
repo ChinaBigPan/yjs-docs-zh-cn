@@ -23,18 +23,33 @@ module.exports= {
         ],
         sidebar: [
             {
-                title: '首页',
-                path: '/',
-                sidebarDepth: 2
-            },
-            {
-                title: 'Logo写了吗',
+                title: '总览',
                 path: '/routes/',
                 sidebarDepth: 2
             },
             {
-                title: '版本号写了么',
-                path: '/routes/chapter1.html',
+                title: '开始',
+                path: '/routes/start',
+                sidebarDepth: 2
+            },
+            {
+                title: 'API',
+                path: '/routes/API',
+                sidebarDepth: 2
+            },
+            {
+                title: 'CRDT 算法',
+                path: '/routes/CRDT_Algorithm',
+                sidebarDepth: 2
+            },
+            {
+                title: '信息呈现绑定',
+                path: '/routes/binding',
+                sidebarDepth: 2
+            },
+            {
+                title: '信息分发端',
+                path: '/routes/provider',
                 sidebarDepth: 2
             }
         ]
