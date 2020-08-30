@@ -1,5 +1,5 @@
 module.exports= {
-    title: 'Y.js 中文文档',
+    title: 'Y.js',
     description: "对共享数据进行强大抽象的 CRDT 框架。",
     base: '/yjs-docs-zh-cn/',
     markdown: {
