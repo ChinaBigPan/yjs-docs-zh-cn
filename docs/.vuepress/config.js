@@ -11,11 +11,12 @@ module.exports= {
     themeConfig: {
         activeHeaderLinks: true,
         displayAllHeaders: true,
+        logo: "/images/logo.png",
         nav: [
-            // {
-            //     text: "主站",
-            //     link: "http://febeacon.com"
-            // },
+            {
+                text: "大笑文档",
+                link: "http://www.febeacon.com"
+            },
             {
                 text: "文档首页",
                 link: "/"

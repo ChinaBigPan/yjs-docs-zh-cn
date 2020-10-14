@@ -1,7 +1,7 @@
 {
-  "name": "vuepress-template",
-  "version": "1.0.0",
-  "description": "",
+  "name": "yjs-docs-zh-cn",
+  "version": "13.3.2",
+  "description": "Yjs 对共享数据进行强大抽象的 CRDT 框架。它是一种 CRDT 实现，将其内部数据暴露为共享类型(shared types)，非常适合做共享文档。",
   "main": "index.js",
   "author": "大笑 <daguogxp@qq.com>",
   "scripts": {
